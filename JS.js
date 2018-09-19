@@ -5,7 +5,6 @@ var name1 = prompt("Введите ваше имя");
 var name2 = prompt("Введите имя 2 пользователя");
 alert("Приветствую вас "+ name1+" и "+name2);
 }
-Фарид азазаз
 else if (num ==3){
 	var name = prompt("Введите имя")
 	var ear = prompt("Введите возраст")
