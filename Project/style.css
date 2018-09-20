@@ -13,20 +13,45 @@
 	width: 100%;
 	height: 100%
 }
-.registerGUI{
+.autoGUI{
 	position: absolute;
 	width: 20%;
 	height: 30%;
-	top:40%;
+	top:34%;
 	left: 40%;
 	border: solid black;
 }
-.registerGUI input{
+.autoGUI input{
 	height: 10%;
 	width: 40%;
 	max-height: 10%;
 	max-width: 40%;
 	margin:10px;
+}
+.musick{
+	height: 0px;
+	width: 0px;
+}
+.regGUI{
+	position: absolute;
+	width: 25%;
+	height: 40%;
+	top:35%;
+	left: 40%;
+	border: solid black;
+}
+.regGUI input{
+	height: 6%;
+	width: 40%;
+	max-height: 10%;
+	max-width: 40%;
+	margin:10px;
+}
+.regGUI h1{
+	text-align: left;
+	font-size: 11px;
+	font-family: 'Arimo', sans-serif;
+
 }
 .black
 {	width: 50%;

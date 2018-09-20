@@ -3,7 +3,7 @@
 // var Otchestvo = document.Otchestvo;
 // var Gorod =document.Gorod;
 // document(Name+" "+Familu+" "+Otchestvo+" "+Gorod);
-function regForm(){
+function autoForm(){
 var Name = document.getElementById("names").value;
 var Familu = document.getElementById("familu").value;
 	if(Name=="Андрей"&&Familu == "Морозов"||Name=="Фарид"&&Familu== "Алисанов"){
@@ -17,3 +17,9 @@ var Familu = document.getElementById("familu").value;
 		alert("А ты собственно кто?");
 	}	
 } 
+function regForm(){
+	 var rName = document.getElementById("rname").value;
+	 var rFamilu = document.getElemetById("rfamilu").value;
+	 var rOtchest = document.getElemetById("rothestv").value;
+	 var rGorod = document.getElemetById("rgorod").value;
+}
