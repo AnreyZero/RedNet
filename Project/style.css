@@ -4,33 +4,54 @@
 }
 .conteiner
 {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100%;
-	display: flex;
 }
 .conteiner img{
 	width: 100%;
 	height: 100%
+
 }
 .autoGUI{
-	position: absolute;
-	width: 20%;
-	height: 30%;
-	top:34%;
-	left: 40%;
-	border: solid black;
+	position:absolute;
+	width: 500px;
+	height: 200px;
+	top:35%;
+	left:30.4%;
+	max-width: 500px;
+	max-height:200px;
 }
 .autoGUI input{
+	position:relative;
 	height: 10%;
-	width: 40%;
-	max-height: 10%;
-	max-width: 40%;
-	margin:10px;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 175px;
+}
+.autoGUI a{
+	margin: 50px;
+	margin-top: 100px;
+	margin-left:100px;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Arimo', sans-serif;
+	color: #f6f6f6;
+}
+.autoGUI h1{
+	text-align: center;
+	font-size: 14px;
+	color: #f6f6f6;
+	font-family: 'Arimo', sans-serif
+}
+body{
+	display: block;
 }
 .musick{
 	height: 0px;
 	width: 0px;
+
 }
 .regGUI{
 	position: absolute;
@@ -53,28 +74,4 @@
 	font-family: 'Arimo', sans-serif;
 
 }
-.black
-{	width: 50%;
-	height: 100%;
-	background:#232323;
-	max-width: 100%;
-	box-sizing: border-box;
 
-}
-.while
-{	
-	width: 50%;
-	height: 100%;
-	left: 50%;
-	background:#e8e8e8;
-	max-width: 100%;
-	box-sizing: border-box;
-}
-.img
-{
-	width: 100%;
-	height: 100%;
-	background:#232323;
-	max-width: 100%;
-	box-sizing: border-box;
-}
